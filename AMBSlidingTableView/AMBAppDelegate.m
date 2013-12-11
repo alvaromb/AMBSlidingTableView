@@ -16,6 +16,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[AMBSlidingTableViewController alloc] init]];
+    self.window.rootViewController = navigationController;
     return YES;
 }
 

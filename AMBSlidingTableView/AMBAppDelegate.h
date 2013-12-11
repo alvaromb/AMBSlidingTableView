@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AMBSlidingTableViewController.h"
 
 @interface AMBAppDelegate : UIResponder <UIApplicationDelegate>
 

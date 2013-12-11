@@ -19,6 +19,7 @@
 		38EB0A821858EFBF00C74378 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EB0A6A1858EFBF00C74378 /* UIKit.framework */; };
 		38EB0A8A1858EFBF00C74378 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38EB0A881858EFBF00C74378 /* InfoPlist.strings */; };
 		38EB0A8C1858EFBF00C74378 /* AMBSlidingTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EB0A8B1858EFBF00C74378 /* AMBSlidingTableViewTests.m */; };
+		38EB0A981858F0A000C74378 /* AMBSlidingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EB0A971858F0A000C74378 /* AMBSlidingTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		38EB0A871858EFBF00C74378 /* AMBSlidingTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMBSlidingTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		38EB0A891858EFBF00C74378 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38EB0A8B1858EFBF00C74378 /* AMBSlidingTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMBSlidingTableViewTests.m; sourceTree = "<group>"; };
+		38EB0A961858F0A000C74378 /* AMBSlidingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBSlidingTableViewController.h; sourceTree = "<group>"; };
+		38EB0A971858F0A000C74378 /* AMBSlidingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBSlidingTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,8 @@
 		38EB0A5A1858EFBF00C74378 = {
 			isa = PBXGroup;
 			children = (
-				38EB0A6C1858EFBF00C74378 /* AMBSlidingTableView */,
+				38EB0A951858EFD300C74378 /* AMBSlidingTableView */,
+				38EB0A6C1858EFBF00C74378 /* AMBSlidingTableViewDemo */,
 				38EB0A851858EFBF00C74378 /* AMBSlidingTableViewTests */,
 				38EB0A651858EFBF00C74378 /* Frameworks */,
 				38EB0A641858EFBF00C74378 /* Products */,
@@ -104,7 +108,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		38EB0A6C1858EFBF00C74378 /* AMBSlidingTableView */ = {
+		38EB0A6C1858EFBF00C74378 /* AMBSlidingTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				38EB0A751858EFBF00C74378 /* AMBAppDelegate.h */,
@@ -112,6 +116,7 @@
 				38EB0A781858EFBF00C74378 /* Images.xcassets */,
 				38EB0A6D1858EFBF00C74378 /* Supporting Files */,
 			);
+			name = AMBSlidingTableViewDemo;
 			path = AMBSlidingTableView;
 			sourceTree = "<group>";
 		};
@@ -142,6 +147,15 @@
 				38EB0A881858EFBF00C74378 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38EB0A951858EFD300C74378 /* AMBSlidingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				38EB0A961858F0A000C74378 /* AMBSlidingTableViewController.h */,
+				38EB0A971858F0A000C74378 /* AMBSlidingTableViewController.m */,
+			);
+			name = AMBSlidingTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38EB0A981858F0A000C74378 /* AMBSlidingTableViewController.m in Sources */,
 				38EB0A731858EFBF00C74378 /* main.m in Sources */,
 				38EB0A771858EFBF00C74378 /* AMBAppDelegate.m in Sources */,
 			);
